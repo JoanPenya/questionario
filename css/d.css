@@ -1,0 +1,285 @@
+html{
+	background-image: url("../img/wall.jpg");
+	height: 400%;
+
+}
+
+label{
+	position: absolute;
+	text-indent: -10px;
+	left: 10%;
+	padding-top: 80px;
+}
+
+#titulo{
+	position: absolute;
+	color: red;
+	font-size: 500%;
+	text-shadow: -3px -3px 0 black, 3px -3px 0 black, -3px 3px 0 black, 3px 3px 0 black;
+	text-align: center;
+}
+
+#contenedorTitulo{
+	position: absolute;
+	width: 50%;
+	height: 50%;
+	left: 25%;
+	top: -7.5%;
+}
+
+#logo{
+	position: absolute;
+	background-image: url("../img/logo.png");
+	background-repeat: no-repeat;
+	background-size: 65%;
+	height: 60%;
+	width: 35%;
+	right: -10%;
+	top: 20%;
+}
+
+#placa{
+	position: absolute;
+	background-image: url("../img/board.png");
+	background-repeat: no-repeat;
+	background-size: 75%;
+	height: 75%;
+	width: 50%;
+	top: 20%;
+	left: -10%;
+}
+
+#preg1{
+	position: absolute;
+	background-color: red;
+	height: 25%;
+	width: 50%;
+	left: 22.5%;
+	top: 35%;
+	border-radius: 15px;
+    border: 5px solid black;
+}
+
+#preg1 h2{
+	position: absolute;
+	left: 5%;
+}
+
+#preg1 input{
+	position: absolute;
+	top: 45%;
+	left: 5%;
+}
+
+#preg2{
+	position: absolute;
+	background-color: red;
+	height: 25%;
+	width: 50%;
+	left: 22.5%;
+	top: 70%;
+	border-radius: 15px;
+	border: 5px solid black;
+}
+
+#preg2 h2{
+	position: absolute;
+	left: 5%;
+}
+
+#preg2 input{
+	position: absolute;
+	top: 45%;
+	left: 5%;
+}
+
+#preg3{
+	position: absolute;
+	background-color: red;
+	height: 25%;
+	width: 50%;
+	left: 22.5%;
+	top: 105%;
+	border-radius: 15px;
+	border: 5px solid black;
+}
+
+#preg3 h2{
+	position: absolute;
+	left: 5%;
+}
+
+#preg3 select{
+	position: absolute;
+	top: 45%;
+	left: 5%;
+}
+
+#preg4{
+	position: absolute;
+	background-color: red;
+	height: 25%;
+	width: 50%;
+	left: 22.5%;
+	top: 140%;
+	border-radius: 15px;
+	border: 5px solid black;
+}
+
+#preg4 h2{
+	position: absolute;
+	left: 5%;
+}
+
+#preg4 select{
+	position: absolute;
+	top: 60%;
+	left: 5%;
+}
+
+#preg5{
+	position: absolute;
+	background-color: red;
+	height: 25%;
+	width: 50%;
+	left: 22.5%;
+	top: 175%;
+	border-radius: 15px;
+	border: 5px solid black;
+}
+
+#preg5 h2{
+	position: absolute;
+	left: 5%;
+}
+
+#preg5 select{
+	position: absolute;
+	top: 45%;
+	left: 5%;
+}
+
+#preg6{
+	position: absolute;
+	background-color: red;
+	height: 25%;
+	width: 50%;
+	left: 22.5%;
+	top: 210%;
+	border-radius: 15px;
+	border: 5px solid black;
+}
+
+#preg6 h2{
+	position: absolute;
+	left: 5%;
+}
+
+#preg6 select{
+	position: absolute;
+	top: 45%;
+	left: 5%;
+}
+
+#preg7{
+	position: absolute;
+	background-color: red;
+	height: 25%;
+	width: 50%;
+	left: 22.5%;
+	top: 245%;
+	border-radius: 15px;
+	border: 5px solid black;
+}
+
+#preg7 h2{
+	position: absolute;
+	left: 5%;
+}
+
+#preg8{
+	position: absolute;
+	background-color: red;
+	height: 25%;
+	width: 50%;
+	left: 22.5%;
+	top: 280%;
+	border-radius: 15px;
+	border: 5px solid black;
+}
+
+#preg8 h2{
+	position: absolute;
+	left: 5%;
+}
+
+#preg9{
+	position: absolute;
+	background-color: red;
+	height: 25%;
+	width: 50%;
+	left: 22.5%;
+	top: 315%;
+	border-radius: 15px;
+	border: 5px solid black;
+}
+
+#preg9 h2{
+	position: absolute;
+	left: 5%;
+}
+
+#preg10{
+	position: absolute;
+	background-color: red;
+	height: 25%;
+	width: 50%;
+	left: 22.5%;
+	top: 350%;
+	border-radius: 15px;
+	border: 5px solid black;
+}
+
+#preg10 h2{
+	position: absolute;
+	left: 5%;
+}
+
+#envio{
+	position: absolute;
+	text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: red;
+    border-radius: 6px;
+    border: 2px solid #000000;
+    top: 385%;
+    left: 42.5%;
+}
+
+#envio:hover{
+	position: absolute;
+	color: #1883ba;
+    background-color: #ffffff;
+}
+
+
+#RP1A, #J, #P71, #P81{
+	position: absolute;
+	top: 50%;
+	left: 5%;
+}
+
+#RP2, #P, #P72, #P82{
+	position: absolute;
+	top: 62%;
+	left: 5%;
+}
+
+#RP3, #F, #P73, #P83{
+	position: absolute;
+	top: 74%;
+	left: 5%;
+}

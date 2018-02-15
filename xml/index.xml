@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preguntes>
+
+ <question id='profe001'>
+  <types>text</types>
+  <title>¿En que año empezo el proyecto de la raspberry pi?</title>
+  <answer>2006</answer>
+ </question>
+ 
+ <question id='profe002'>
+  <types>text</types>
+  <title>¿Cuanta ram tenía en la primera versión?</title>
+  <answer>256mb</answer>
+ </question>
+ 
+ <question id='profe003'>
+  <types>select</types>
+  <title>¿Que es una raspberry pi?</title>
+  <answer>microordenador</answer>
+ </question>
+ 
+ <question id='profe004'>
+  <types>select</types>
+  <select>¿Cuantas versiones nos encontramos en la familia de la raspberry pi?</select>
+  <answer>4</answer>
+ </question>
+ 
+ <question id='profe005'>
+  <types>multiple</types>
+  <title>¿Cual es el modelo de la RP ideal para realizar la pigrrl?</title>
+  <option>RP0</option>
+  <option>RP2</option> 
+  <option>RP1 A+</option>
+  <answer>0</answer> <!-- SelectedIndex = 0, 1 ó 2 , 2 vol dir la tercera opciói -->
+ </question>
+ 
+ <question id='profe006'>
+  <types>multiple</types>
+  <title>Para que la placa se encienda ¿Que tipo de cable necesitamos?</title>
+  <option>micro usb</option>
+  <option>Cable propio</option> 
+  <option>USB 3.0</option>
+  <answer>1</answer> <!-- SelectedIndex = 0, 1 ó 2 , 2 vol dir la tercera opciói -->
+ </question>
+
+ <question id='profe007'>
+  <types>checkbox</types>
+  <title>¿Cuales de las placas tiene conexión inalambrica?</title>
+  <option>RP0w</option>
+  <option>RP2</option> 
+  <option>RP3</option> 
+  <option>RP1 B+</option>
+  <answer>RP0w</answer>
+  <answer>RP3</answer>
+ </question>
+ 
+ <question id='profe008'>
+  <types>checkbox</types>
+  <title>¿Que tipo de conexion inalambrica tiene las versiones de la RP0w Y RP3?</title>
+  <option>Bluetooth</option>
+  <option>Wiriless</option> 
+  <option>Infrarrojo</option> 
+  <answer>Bluetooth</answer>
+  <answer>Wiriless</answer>
+ </question>
+ 
+ <question id='profe009'>
+  <types>radio</types>
+  <title>¿Que versión de la RP "NO" tiene la entrada de ETHERNET (RJ-45)?</title>
+  <option>RP1 A+</option>
+  <option>RP2</option> 
+  <option>RP3</option>
+  <answer>RP1 A+</answer>
+  <answer>RP0</answer>
+ </question>
+ 
+ <question id='profe010'>
+  <types>radio</types>
+  <title>¿Para que se utiliza actualmente las placas RP?</title>
+  <option>Jugar</option>
+  <option>Programar</option> 
+  <option>Para utilizarlo como frisbee del perro</option> 
+  <option>Uso domestico</option>
+  <answer>Jugar</answer>
+  <answer>Programar</answer>
+  <answer>Uso domestico</answer>
+ </question>
+ 
+</preguntes>

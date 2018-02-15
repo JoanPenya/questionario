@@ -1,0 +1,13 @@
+{
+	"question": [
+		{
+			"type": "text",
+			"title": "¿En que año empezo el proyecto de la raspberry pi?",
+			"answer": "2006",
+		},
+		{
+			"tipus": "text",
+			"title": ""
+		}
+	]
+}
