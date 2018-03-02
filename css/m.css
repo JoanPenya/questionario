@@ -1,15 +1,45 @@
 html{
 	background-image: url("../img/wall.jpg");
-	height: 535%;
+	height: 425%;
+}
 
+#index{
+	height: 100%;
+}
+
+#logoUni{
+	position:absolute;
+	background-image: url("../img/logoUniversidad.png");
+	background-repeat: no-repeat;
+	background-size: 50px;
+	width: 50px;
+	height: 50px;
+	bottom: 2.5%;
+	left: 40%;
 }
 
 label{
 	position: absolute;
 	left: 12.5%;
-	padding-top: 120px;
 }
 
+input[type=checkbox]{
+	width:5%;
+	zoom:1.5
+}
+
+input[type=radio]{
+	width: 5%;
+	zoom: 1.5;
+}
+
+input,select{width:80%}
+
+body,input,select,label{font-size: 5vw}
+
+h3{
+	font-size:7vw;
+}
 
 #titulo{
 	position: absolute;
@@ -21,10 +51,10 @@ label{
 
 #contenedorTitulo{
 	position: absolute;
-	width: 50%;
+	width: 80%;
 	height: 50%;
-	left: 25%;
-	top: 5%;
+	left: 12.5%;
+	top: 0%;
 }
 
 #logo{
@@ -49,204 +79,259 @@ label{
 	left: -10%;
 }
 
+#informacionD{
+	display: none;
+}
+
+#informacionM{
+	position: absolute;
+	height: 50%;
+	width: 90%;
+	background-color: red;
+	border-radius: 15px;
+	border: 5px solid black;
+	top: 35%;
+}
+
+#conM{
+	position:absolute;
+	top: -5%;
+}
+
+#venM{
+	position: absolute;
+	background-color: green;
+	bottom: 0%;
+	right: 33.5%;
+	border-radius: 15px;
+	border: 2.5px solid black;
+	text-decoration: none;
+	font-size: 25px;
+	bottom: 2.5%;
+	color: black;
+}
+
+#instruccionesD{
+	display:none;
+}
+
+#instruccionesM{
+	display: none;
+	position: absolute;
+	background-color: red;
+	border: 5px solid black;
+	border-radius: 15px;
+	height: 80%;
+	top: 5%;
+	left: 0.5%;
+}
+
+#xM{
+	position: absolute;
+	right: 5%;
+	top: 2.5%;
+	background-color: green;
+	border: 2.5px solid black;
+	border-radius: 30px;
+	text-decoration: none;
+	color: black;
+	font-size: 25px;
+}
+
+#empM{
+	position: absolute;
+	background-color: green;
+	border: 2.5px solid black;
+	border-radius: 30px;
+	left: 30%;
+	text-decoration: none;
+	color: black;
+	font-size: 35px;
+	bottom: 10%;
+}
+
 #preg1{
 	position: absolute;
 	background-color: red;
 	height: 30%;
-	width: 50%;
-	left: 22.5%;
-	top: 35%;
+	width: 75%;
+	left: 12.5%;
+	top: 5%;
 	border-radius: 15px;
     border: 5px solid black;
 }
 
-#preg1 h2{
-	position: absolute;
-	left: 5%;
-}
 
-#preg1 input, #preg2 input{
+#text1{
 	position: absolute;
-	top: 55%;
-	left: 25%;
+	top: 30%;
+	left: 20%;
+	width: 60%;
 }
 
 #preg2{
 	position: absolute;
 	background-color: red;
 	height: 30%;
-	width: 50%;
-	left: 22.5%;
-	top: 75%;
+	width: 75%;
+	left: 12.5%;
+	top: 40%;
 	border-radius: 15px;
 	border: 5px solid black;
 }
 
-#preg2 h2{
-	position: absolute;
-	left: 5%;
+#text2{
+	position:absolute;
+	top: 60%;
+	left: 20%;
+	width: 60%;
 }
 
 #preg3{
 	position: absolute;
 	background-color: red;
-	height: 30%;
-	width: 50%;
-	left: 22.5%;
-	top: 115%;
+	height: 20%;
+	width: 75%;
+	left: 12.5%;
+	top: 75%;
 	border-radius: 15px;
 	border: 5px solid black;
 }
 
-#preg3 h2{
-	position: absolute;
-	left: 5%;
-}
 
-#preg3 select, #preg4 select{
+#sel3{
 	position: absolute;
-	top: 45%;
-	left: 10%;
-	width: 75%;
-	height: 50%;
+	top: 92%;
+	left: 20%;
+	width: 60%;
 }
 
 #preg4{
 	position: absolute;
 	background-color: red;
-	height: 40%;
-	width: 50%;
-	left: 22.5%;
-	top: 155%;
+	height: 30%;
+	width: 75%;
+	left: 12.5%;
+	top: 100%;
 	border-radius: 15px;
 	border: 5px solid black;
 }
 
-#preg4 h2{
+#sel4{
 	position: absolute;
-	left: 5%;
+	top: 125%;
+	left: 20%;
+	width: 60%;
 }
 
 #preg5{
 	position: absolute;
 	background-color: red;
 	height: 40%;
-	width: 50%;
-	left: 22.5%;
-	top: 205%;
+	width: 75%;
+	left: 12.5%;
+	top: 140%;
 	border-radius: 15px;
 	border: 5px solid black;
 }
 
-#preg5 h2{
-	position: absolute;
-	left: 5%;
-}
 
-#preg5 select, #preg6 select{
+#mul5{
 	position: absolute;
-	top: 45%;
+	top: 165%;
 	left: 22.5%;
 	width: 50%;
-	height: 50%;
+	height: 15%;
 }
 
 #preg6{
 	position: absolute;
 	background-color: red;
-	height: 50%;
-	width: 50%;
-	left: 22.5%;
-	top: 255%;
+	height: 40%;
+	width: 75%;
+	left: 12.5%;
+	top: 190%;
 	border-radius: 15px;
 	border: 5px solid black;
 }
 
-#preg6 h2{
+#mul6{
 	position: absolute;
-	left: 5%;
+	top: 215%;
+	width: 50%;
+	left: 22.5%;
 }
 
 #preg7{
 	position: absolute;
 	background-color: red;
-	height: 40%;
-	width: 50%;
-	left: 22.5%;
-	top: 315%;
+	height: 30%;
+	width: 75%;
+	left: 12.5%;
+	top: 240%;
 	border-radius: 15px;
 	border: 5px solid black;
 }
 
-#preg7 h2{
+#checkboxDiv1{
 	position: absolute;
-	left: 5%;
+	top: 262.5%;
+	left: 22.5%;
+	width: 50%;
 }
 
 #preg8{
 	position: absolute;
 	background-color: red;
-	height: 40%;
-	width: 50%;
-	left: 22.5%;
-	top: 365%;
+	height: 35%;
+	width: 75%;
+	left: 12.5%;
+	top: 280%;
 	border-radius: 15px;
 	border: 5px solid black;
 }
 
-#preg8 h2{
-	position: absolute;
-	left: 5%;
-}
-
-#P71, #P81, #RP1A, #J{
-	position: absolute;
-	top: 46%;
-	left: 5%;
-}
-
-#P72, #P82, #RP2, #P{
-	position: absolute;
-	top: 54%;
-	left: 5%;
-}
-
-#P73, #P83, #RP3, #F{
-	position: absolute;
-	top: 61%;
-	left: 5%;
+#checkboxDiv2{
+	position:absolute;
+	top: 307.5%;
+	left: 22.5%;
+	width: 50%;
 }
 
 #preg9{
 	position: absolute;
 	background-color: red;
-	height: 40%;
-	width: 50%;
-	left: 22.5%;
-	top: 415%;
+	height: 30%;
+	width: 75%;
+	left: 12.5%;
+	top: 325%;
 	border-radius: 15px;
 	border: 5px solid black;
 }
 
-#preg9 h2{
+#radiodiv1{
 	position: absolute;
-	left: 5%;
+	top: 347.5%;
+	left: 22.5%;
+	width: 50%;
 }
 
 #preg10{
 	position: absolute;
 	background-color: red;
-	height: 40%;
-	width: 50%;
-	left: 22.5%;
-	top: 465%;
+	height: 30%;
+	width: 75%;
+	left: 12.5%;
+	top: 365%;
 	border-radius: 15px;
 	border: 5px solid black;
 }
 
-#preg10 h2{
+#radiodiv2{
 	position: absolute;
-	left: 5%;
+	top: 385%;
+	width: 65%;
+	left: 15.5%;
 }
 
 #envio{
@@ -259,8 +344,8 @@ label{
     background-color: red;
     border-radius: 6px;
     border: 2px solid #000000;
-    top: 515%;
-    left: 40%;
+    top: 410%;
+    left: 35%;
 }
 
 #envio:hover{

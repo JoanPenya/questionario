@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<questions>
+
+ <question id="profe001">
+  <types>text</types>
+  <title>¿En que año empezo el proyecto de la raspberry pi?</title>
+  <answer>2006</answer>
+ </question>
+ 
+ <question id="profe002">
+  <types>text</types>
+  <title>¿Cuanta RAM tenía en la primera versión?</title>
+  <answer>256mb</answer>
+ </question>
+ 
+ <question id="profe003">
+  <types>select</types>
+  <title>¿Que es una raspberry pi?</title>
+  <option>Television</option>
+  <option>Consola</option>
+  <option>Microondas</option>
+  <option>Microordenador</option>
+  <option>Movil</option>
+  <option>Tablet PC</option>
+  <option>Smartwatch</option>
+  <answer>5</answer>
+ </question>
+ 
+ <question id="profe004">
+  <types>select</types>
+  <title>¿Cuantas versiones nos encontramos en la familia raspberry pi?</title>
+  <option>1</option>
+  <option>2</option>
+  <option>3</option>
+  <option>4</option>
+  <option>5</option>
+  <option>6</option>
+  <option>7</option>
+  <answer>5</answer>
+ </question>
+ 
+ <question id="profe005">
+  <types>select</types>
+  <title>¿Cual es el modelo de la RP ideal para realizar la pigrrl?</title>
+  <option>RP0</option>
+  <option>RP0w</option> 
+  <option>RP1 A+</option>
+  <option>RPx B+</option>
+  <answer>0</answer>
+  <answer>1</answer> <!-- SelectedIndex = 0, 1 ó 2 , 2 vol dir la tercera opciói -->
+ </question>
+ 
+ <question id="profe006">
+  <types>select</types>
+  <title>Para que la placa se encienda ¿Que tipo de cable necesitamos?</title>
+  <option>micro usb</option>
+  <option>Cable propio</option> 
+  <option>USB 3.0</option>
+  <answer>0</answer> <!-- SelectedIndex = 0, 1 ó 2 , 2 vol dir la tercera opciói -->
+ </question>
+
+ <question id="profe007">
+  <types>checkbox</types>
+  <title>¿Cuales de las placas tiene conexión inalambrica?</title>
+  <option>RP0w</option>
+  <option>RP2</option> 
+  <option>RP3</option> 
+  <answer>RP0w</answer>
+  <answer>RP3</answer>
+ </question>
+ 
+ <question id="profe008">
+  <types>checkbox</types>
+  <title>¿Que tipos de conexiones inalambricas tienen las versiones de la RP0w Y RP3?</title>
+  <option>Bluetooth</option>
+  <option>Wiriless</option> 
+  <option>Infrarrojo</option> 
+  <answer>Bluetooth</answer>
+  <answer>Wiriless</answer>
+ </question>
+ 
+ <question id="profe009">
+  <types>radio</types>
+  <title>¿Que versión de la RP tiene la entrada de ETHERNET (RJ-45)?</title>
+  <option>RP1 A+</option>
+  <option>RPx B+</option> 
+  <option>RP0</option>
+  <answer>RPx B+</answer>
+ </question>
+ 
+ <question id="profe010">
+  <types>radio</types>
+  <title>¿Para que "NO" se utiliza las placas RP?</title>
+  <option>Jugar</option>
+  <option>Programar</option> 
+  <option>Utilizar como frisbee</option> 
+  <answer>Utilizar como frisbee</answer>
+ </question>
+ 
+</questions>
