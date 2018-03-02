@@ -1,119 +1,68 @@
-<!DOCTYPE HTML5>
-<html>
+<!DOCTYPE HTML>
+<html id='index'>
 <head>
 	<title>Que sabes sobre de la raspberry pi</title>
 	<meta name="description" content="">
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta property="og:site_name" content="Cuestionario de la Raspberry Pi">
+	<meta property="og:url" content="https://www.rawgit.com/">
+	<meta property="og:title" content="¿Que sabes de las placas de Raspberry?">
+	<meta property="og:image" content="img/logoUniversidad.png">
+	<meta property="og:description" content="El examen oficial de la University Pi. Hay que contestar unas 10 preguntas sobre de los microordenadores Raspberry Pi">
 	<link rel='stylesheet' media='screen and (min-width: 961px)' href='css/d.css'>
 	<link rel='stylesheet' media='screen and (max-width: 960px)' href='css/m.css'>
-	<script src="js/js.js"></script>
+	<script src="js/index.js"></script>
 </head>
-<body id="questionario">
-	<div id="contenedorTitulo">
-		<div id=logo></div>
-		<div id=placa></div>
-		<h1 id="titulo">Que sabes sobre de la Raspberry pi</h1>		
-	</div>
-	
-	<div id="preg1">
-		<h2>¿En que año empezo el proyecto de la raspberry pi?</h2>
-		<input type="text" value=""/>
-	</div>
-	
-	<div id="preg2">
-		<h2>¿Cuanta ram tenía en la primera versión?</h2>
-		<input type="text" value=""/>
-	</div>
-	
-	<div id="preg3">
-		<h2>¿Que es una raspberry pi?</h2>
-		<select name="raspberry" select>
-			<option value="1">Televisión</option>
-			<option value="2">Consola</option>
-			<option value="3">Microondas</option>
-			<option value="4">Microordenador</option>
-			<option value="5">Movil</option>
-			<option value="6">Tablet PC</option>
-			<option value="7">Smartwatch</option>
-		</select>
-	</div>
+	<body>
+		<div id='contenedorTitulo'>
+			<div id='logo'></div>
+			<div id='placa'></div>
+			<h1 id="titulo">Que sabes sobre de la Raspberry pi</h1>	
+		</div>
+		<div id="informacionD">
+			<h2 id="int">Bienvenidos al examen oficial de la raspberry pi.</h2>
+			<h2 id="conD">
+				 Este examen contiene 10 preguntas para contestar. Antes de comenzar el examen, te recomiendo que leas las preguntas. 
+			</h2>
+			<a href="" id="venD">Comenzar</a>
+		</div>
+		<div id="informacionM">			
+			<h3 id="conM">
+				Bienvenidos al examen oficial de la raspberry pi. Este examen contiene 10 preguntas para contestar. Antes de comenzar el examen, te recomiendo que leas las preguntas. 
+			</h3>
+			<a href="" id="venM">Comenzar</a>
+		</div>
 
-	<div id="preg4">
-		<h2>¿Cuantas versiones nos encontramos en la familia de la raspberry pi?</h2>
-		<select name="raspberry" select>
-			<option value="1">1</option>
-			<option value="2">2</option>
-			<option value="3">3</option>
-			<option value="4">4</option>
-			<option value="5">5</option>
-			<option value="6">6</option>
-			<option value="7">7</option>
-		</select>
-	</div>
+		<div id="instruccionesD">
+			<a href="" id="xD">X</a>
+			<h2 id="insD">
+				<br>Para empeza:<br>
+				<br>-El examen tiene 10 preguntas relacionadas al mundo de la raspberry pi.
+				<br>-Deberas de contestarlas todas bien. 
+				<br>-Las preguntas de tipo text, pueden restar "-1". 
+				<br>-Si superas mas de un 5, has aprovado. Pero no tendrás el titulo oficial de la Raspberry Pi. 
+				<br>-Si superas mas de un 8, tendrás el titulo oficial de la Raspberry Pi.<br>
+				<br>El examen comienza ahora: 
+			</h2>
+				<a href="preguntas.html" id="empD">
+					empezar
+				</a>
+		</div>
 
-	<div id="preg5">
-		<h2>¿Cual es el modelo de la RP ideal para realizar la pigrrl?</h2>
-		<select name="raspberry" multiple>
-			<option value="1">RP0</option>
-			<option value="2">RP0w</option>
-			<option value="3">RP1 A+</option>
-			<option value="4">RPx B+</option>
-		</select>
-	</div>
-
-	<div id="preg6">
-		<h2>Para que la placa se encienda ¿Que tipo de cable necesitamos?</h2>
-	<select name="raspberry" multiple>
-		<option value="1">micro-usb</option>
-		<option value="2">cable propio</option>
-		<option value="3">USB 3.0</option>
-		<option value="4">GPIO</option>
-	</select>
-	</div>
-
-	<div id="preg7">
-		<h2>¿Cuales de las placas tiene conexión inalambrica?</h2>
-		<input type="checkbox" id="P71" value="RP0w">
-		<label for="P71">RP0w</label></br>
-		<input type="checkbox" id="P72" value="RP2">
-		<label for="P72">RP2</label></br>
-		<input type="checkbox" id="P73" Value="RP3">
-		<label for="P73">RP3</label></br>
-	</div>
-
-	<div id="preg8">
-		<h2>¿Que tipo de conexion inalambrica tiene las versiones de la RP0w Y RP3?</h2>
-		<input type="checkbox" id="P81" value="Bluetooth">
-		<label for="P81">Bluetooth</label></br>
-		<input type="checkbox" id="P82" value="Infrarrojos">
-		<label for="P82">Inflarrojos</label></br>
-		<input type="checkbox" id="P83" value="Wiriless">
-		<label for="P83">Wiriless</label></br>
-	</div>
-
-	<div id="preg9">
-		<h2>¿Que versión de la RP "NO" tiene la entrada de ETHERNET (RJ-45)?</h2>
-		<input id="RP1A" type="radio" name="Ethernet" value="RP1A">
-		<label for="RP1A">RP1 A+</label></br>
-		<input id="RP2" type="radio" name="Ethernet" value="RP2">
-		<label for="RP2">RP2</label></br>
-		<input id="RP3" type="radio" name="Ethernet" value="RP3">
-		<label for="RP3">RP3</label></br>
-	</div>
-
-	<div id="preg10">
-		<h2>¿Para que "NO" se utiliza las placas RP?</h2>
-		<input id="J" type="radio" name="NO" value="J">
-		<label for="J">Jugar</label></br>
-		<input id="P" type="radio" name="NO" value="P">
-		<label for="P">Programar</label></br>
-		<input id="F" type="radio" name="NO" value="F">
-		<label for="F">Para utilizar como frisbee de tu perro</label></br>
-	</div>
-
-	<div id="envio">
-		<button>comprobar</button>
-	</div>
-</body>
+		<div id="instruccionesM">
+			<a href="" id="xM">X</a>
+			<p id="insM">
+				<br>Para empeza:<br>
+				<br>-El examen tiene 10 preguntas relacionadas al mundo de la raspberry pi.
+				<br>-Deberas de contestarlas todas bien. 
+				<br>-Las preguntas de tipo text, pueden restar "-1". 
+				<br>-Si superas mas de un 5, has aprovado. Pero no tendrás el titulo oficial de la Raspberry Pi. 
+				<br>-Si superas mas de un 8, tendrás el titulo oficial de la Raspberry Pi.<br>
+				<br>El examen comienza ahora: 
+			</p>
+			<a href="preguntas.html" id="empM">empezar</a>
+		</div>
+		<div id='logoUni'></div>
+	</body>
 </html>

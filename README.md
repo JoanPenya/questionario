@@ -1,5 +1,13 @@
 # cuestionario (Per Joan S. Peña Torres).
 
+# V2.0
+subido: 02/03/2018
+
+Mejoras: 
+* Tiene una página de inicio. 
+* Tiene un diseño adaptable para ordenadores como móviles. 
+* Las preguntas estan generadas por javascript (PARTE DE XML). 
+
 # V1.0 
 Subido: 15/02/2018
 
