@@ -7,6 +7,7 @@ Mejoras:
 * Tiene una página de inicio. 
 * Tiene un diseño adaptable para ordenadores como móviles. 
 * Las preguntas estan generadas por javascript (PARTE DE XML). 
+* URL: https://cdn.rawgit.com/JoanProg/questionario/f16e28c7/index.html
 
 # V1.0 
 Subido: 15/02/2018
