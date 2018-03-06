@@ -19,25 +19,30 @@ html{
 	right: 2.5%;
 }
 
+#resultadosDiv{
+	background-color: red;
+	border-radius: 15px;
+	border: 5px solid black;
+	position: absolute;
+	display: none;
+	top: 280%;
+	left: 12.5%;
+	height: 75%;
+	width: 75%; 
+}
+
+#resultados{
+	position: absolute;
+
+}
+
 label{
 	position: absolute;
 	text-indent: -10px;
 	left: 10%;
 }
 
-input[type=checkbox]{
-	width:5%;
-	zoom:1.5;
-}
 
-input[type=radio]{
-
-}
-
-h3{
-	position: absolute;
-	left: 25%;
-}
 
 #titulo{
 	position: absolute;
@@ -104,6 +109,9 @@ h3{
 	background-color: green;
 	bottom: 5%;
 	left: 42.5%;
+	width: 15%;
+	height: 15%;
+	font-size: 125%;
 }
 
 #int{
@@ -171,14 +179,6 @@ h3{
     border: 5px solid black;
 }
 
-
-#text1{
-	position: absolute;
-	top: 20%;
-	left: 20%;
-	width: 60%;
-}
-
 #preg2{
 	position: absolute;
 	background-color: red;
@@ -190,12 +190,6 @@ h3{
 	border: 5px solid black;
 }
 
-#text2{
-	position:absolute;
-	top: 45%;
-	left: 20%;
-	width: 60%;
-}
 
 #preg3{
 	position: absolute;
@@ -206,14 +200,6 @@ h3{
 	top: 55%;
 	border-radius: 15px;
 	border: 5px solid black;
-}
-
-
-#sel3{
-	position: absolute;
-	top: 70%;
-	left: 20%;
-	width: 60%;
 }
 
 #preg4{
@@ -227,13 +213,6 @@ h3{
 	border: 5px solid black;
 }
 
-#sel4{
-	position: absolute;
-	top: 95%;
-	left: 20%;
-	width: 60%;
-}
-
 #preg5{
 	position: absolute;
 	background-color: red;
@@ -243,15 +222,6 @@ h3{
 	top: 105%;
 	border-radius: 15px;
 	border: 5px solid black;
-}
-
-
-#mul5{
-	position: absolute;
-	top: 120%;
-	left: 22.5%;
-	width: 50%;
-	height: 15%;
 }
 
 #preg6{
@@ -265,13 +235,6 @@ h3{
 	border: 5px solid black;
 }
 
-#mul6{
-	position: absolute;
-	top: 155%;
-	width: 50%;
-	left: 22.5%;
-}
-
 #preg7{
 	position: absolute;
 	background-color: red;
@@ -281,13 +244,6 @@ h3{
 	top: 175%;
 	border-radius: 15px;
 	border: 5px solid black;
-}
-
-#checkboxDiv1{
-	position: absolute;
-	top: 185%;
-	left: 22.5%;
-	width: 50%;
 }
 
 #preg8{
@@ -301,13 +257,6 @@ h3{
 	border: 5px solid black;
 }
 
-#checkboxDiv2{
-	position:absolute;
-	top: 210%;
-	left: 22.5%;
-	width: 50%;
-}
-
 #preg9{
 	position: absolute;
 	background-color: red;
@@ -319,13 +268,6 @@ h3{
 	border: 5px solid black;
 }
 
-#radiodiv1{
-	position: absolute;
-	top: 235%;
-	left: 22.5%;
-	width: 50%;
-}
-
 #preg10{
 	position: absolute;
 	background-color: red;
@@ -335,13 +277,6 @@ h3{
 	top: 250%;
 	border-radius: 15px;
 	border: 5px solid black;
-}
-
-#radiodiv2{
-	position: absolute;
-	top: 260%;
-	width: 65%;
-	left: 22.5%;
 }
 
 #envio{
