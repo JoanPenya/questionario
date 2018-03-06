@@ -1,5 +1,14 @@
 # cuestionario (Per Joan S. Peña Torres).
 
+# V3.0
+subido: 06/03/2018
+
+Mejoras: 
+* Diseño mejorado. 
+* Autocorrección.
+* Imagenes comprimidas.
+* URL: https://cdn.rawgit.com/JoanProg/questionario/V3.0/index.html
+
 # V2.0
 subido: 02/03/2018
 

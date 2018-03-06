@@ -1,4 +1,4 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
 <head>
 	<title>Que sabes sobre de la raspberry pi</title>
@@ -7,66 +7,67 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel='stylesheet' media='screen and (min-width: 961px)' href='css/d.css'>
 	<link rel='stylesheet' media='screen and (max-width: 960px)' href='css/m.css'>
-	<script src="js/questions.js"></script>
+	<script src='js/questions.js'></script>
 </head>
 <body id='questionario'>
 	
 	<form id='myForm'>
 
-	<h3 id='preg1'></h3>
-	<input id='text1' type='text'/>
+	<div id='preg1'></div>
 	<br><br>
 	
-
-	<h3 id='preg2'></h3>
-	<input id='text2' type='text'/>
+	<div id='preg2'></div>
 	<br><br>
 	
-	<h3 id='preg3'></h3>
-	<select id='sel3'>
-		<option selected value="-1">Elija una...</option>
-	</select>
-	<br><br>
-
-	<h3 id='preg4'></h3>
-	<select id='sel4'>
-		<option selected value="-1">Elija una...</option>
-	</select>
-	<br><br>
-
-	<h3 id='preg5'></h3>
-	<select id='mul5' multiple>
-	</select>
-	<br><br>
-
-	<h3 id='preg6'></h3>
-	<select  id='mul6' multiple>
-	</select>
-	<br><br>
-
-	<h3 id='preg7'></h3>
-	<div id='checkboxDiv1'></div>
-	<br><br>
-
-	<h3 id='preg8'></h3>
-	<div id='checkboxDiv2'></div>
-	<br><br>
-
-	<h3 id='preg9'></h3>
-	<div id='radiodiv1'></div>
-	<br><br>
-
-	<h3 id='preg10'></h3>
-	<div id='radiodiv2'></div>
-	<br><br>
-
-	<div id='envio'>
-		<button>comprobar</button>
+	<div id='preg3'>
+		<h3 id='tituloSelect1'></h3>
+		<select id='sel1' name='opcion3'>
+			<option selected value="-1">Elija una...</option>
+		</select>
 	</div>
+	<br><br>
+
+	<div id='preg4'>
+		<h3 id='tituloSelect2'></h3>
+		<select id='sel2' name='opcion4'>
+			<option selected value="-1">Elija una...</option>
+		</select>
+	</div>
+	<br><br>
+
+	<div id='preg5'>
+		<h3 id='tituloMultiple1'></h3>
+		<select multiple id='mul1' name='opcion5'>
+		</select>
+	</div>
+	<br><br>
+
+	<div id='preg6'>
+		<h3 id='tituloMultiple2'></h3>
+		<select  multiple id='mul2' name='opcion6'>
+		</select>
+	</div>
+	<br><br>
+
+	<div id='preg7'></div>
+	<br><br>
+
+	<div id='preg8'></div>
+	<br><br>
+
+	<div id='preg9'></div>
+	<br><br>
+
+	<div id='preg10'></div>
+	<br><br>
+
+	<input id="envio" type='submit' value='corregir'>
 
 </form>
 
-<div id='resultados'></div>
+	<div id="resultadosDiv">
+		<div id='resultados'></div>
+	</div>
 
 </body>
 </html>
