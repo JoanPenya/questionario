@@ -1,5 +1,15 @@
 # cuestionario (Per Joan S. Peña Torres).
 
+# V3.2
+subido: 06/03/2018
+
+* Mejorado el diseño de la versión móvil de java script (En los resultados. 
+* URL: https://cdn.rawgit.com/JoanProg/questionario/V3.2/index.html
+
+EN CONTRAS: 
+
+* No se pudo mostrar la respuesta 8 en el cuestionario (Varios intentos para que salga la respuesta, pero no pudo arreglar) Lo siento mucho. 
+
 # V3.1
 subido: 06/03/2018
 
