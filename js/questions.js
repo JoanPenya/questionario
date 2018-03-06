@@ -334,6 +334,7 @@ function gestionarXml(dadesXml){
 	//----------------------------------------------------------------------------------
 	//Corrección de preguntas
 
+	//Corrección del text
 	function corregirEscrito1() {
 		var text = formElement.elements.opcion1.value;
 		if (text == respuestaEscrita1) {
@@ -355,6 +356,7 @@ function gestionarXml(dadesXml){
 		}
 	}
 
+	//Correccion del select
 	function corregirSelect1(){
 		var sel = parseInt(formElement.elements.opcion3.value);
 		if((sel) == respuestaSelect1){
@@ -375,6 +377,7 @@ function gestionarXml(dadesXml){
 		}
 	}
 
+	//corrección multiple.
 	function corregirMultiple1(){
 		var f = formElement;
 		var escorrecta = [];
@@ -413,6 +416,7 @@ function gestionarXml(dadesXml){
 		}
 	}
 
+	//Correccion de checkbox
 	function corregirCheckbox1(){
 		var f=formElement;
 		var escorrecta = [];
@@ -453,6 +457,7 @@ function gestionarXml(dadesXml){
 		}
 	}
 
+	//Corrección radio
 	function corregirRadio1(){
 		var rad1 = formElement.elements.opcion9.value;
 		if(rad1 == respuestaRadio1) {
@@ -495,6 +500,7 @@ function gestionarXml(dadesXml){
 		nota=0.0;
 	}
 
+	//Comprobar si las respuestas están llenas.
 	function comprobar(){
 		var f = formElement;
 		var checked = false;
