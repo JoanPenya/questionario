@@ -1,5 +1,13 @@
 # cuestionario (Per Joan S. Peña Torres).
 
+# V3.1
+subido: 06/03/2018
+
+Mejoras:
+* Ya no se autorrecarga, cuando se autocorrija las respuestas.
+* Adaptable mejorada para móviles. 
+* URL: https://cdn.rawgit.com/JoanProg/questionario/V3.1/index.html
+
 # V3.0
 subido: 06/03/2018
 
