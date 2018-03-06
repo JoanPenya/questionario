@@ -1,9 +1,12 @@
 # cuestionario (Per Joan S. Peña Torres).
 
+* URL: https://cdn.rawgit.com/JoanProg/questionario/3b2915b4/index.html
+
 # INSTRUCCIONES: 
 * Este cuestionario, hay que completar las 10 preguntas obligatorias. 
 * Al cumplir las 10 preguntas, nos dara el resultado final. 
 * Si contestas mal las preguntas "checkBox" y "radio" (TIPO TEXT), pueden restar -1.
+* URL DEL EXAMEN (ULTIMA VERSIÓN): https://cdn.rawgit.com/JoanProg/questionario/3b2915b4/index.html
 
 # V3.2
 subido: 06/03/2018
