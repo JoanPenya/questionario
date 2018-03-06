@@ -37,6 +37,7 @@ window.onload = function(){
 			corregirRadio2();
 			presentarNota();
 		}
+		return false;
 	} 
 
 	//FUNCIÓN DE LECTOR XML
